@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Library Admin</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="enter_full_information">Enter full information</string>
+    <string name="request_email_format">Request format ... @gmail.com</string>
+    <string name="request_password_format">The password requires 6 characters</string>
+    <string name="request_code_format">The employee code requires 11 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="mess_login">Login...</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="enter_email">Enter email</string>
+    <string name="mess_forgot">Sending request...</string>
+    <string name="forgot_failed">Forgot password failed</string>
+    <string name="title_library">Library management</string>
+    <string name="title_account">Account management</string>
+    <string name="publishing_company">Publishing company</string>
+    <string name="book">Book</string>
+    <string name="author">Author</string>
+    <string name="promissory_note">Promissory note</string>
+    <string name="staff">Staff</string>
+    <string name="list_of_account">List of account</string>
+    <string name="customer">Customer</string>
+    <string name="name">Full name</string>
+    <string name="employee_code">Employee code</string>
+    <string name="information">Information</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="CMND">CMND</string>
+    <string name="phone_number">Phone number</string>
+    <string name="sex">Sex</string>
+    <string name="position">Position</string>
+    <string name="open_camera">Open camera</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="denied">Permission denied...</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="admin">Admin</string>
+    <string name="manager">Manager</string>
+    <string name="librarian">Librarian</string>
+    <string name="save">Save</string>
+    <string name="mess_save">Saving ...</string>
+    <string name="student_code">Student code</string>
+    <string name="student">Student</string>
+    <string name="book_name">Book name</string>
+    <string name="author_code">Author code</string>
+    <string name="nation">Nation</string>
+    <string name="language">Language</string>
+    <string name="book_code">Book code</string>
+    <string name="category">Category</string>
+    <string name="publish">Publish</string>
+    <string name="publication_date">Publish date</string>
+    <string name="number_of_pages">Number of Pages</string>
+    <string name="introduce">Introduce</string>
+    <string name="literary">Literary</string>
+    <string name="psychological_life_skills">Psychological life skills</string>
+    <string name="foreign_language_books">Foreign language books</string>
+    <string name="education_program">Education program</string>
+    <string name="social_science">Social science</string>
+    <string name="pseudonym">Pseudonym</string>
+    <string name="artwork">Artwork</string>
+    <string name="publish_name">Publish name</string>
+    <string name="fax">Fax</string>
+    <string name="website">Website</string>
+    <string name="publish_code">Publish code</string>
+    <string name="list_submit">List submit</string>
+    <string name="list_borrowing">List borrowing</string>
+    <string name="list_late">List late</string>
+    <string name="list_finish">List finish</string>
+    <string name="form_code">Form code</string>
+    <string name="date_create">Date create</string>
+    <string name="status">Status</string>
+    <string name="date_pay">Date pay</string>
+    <string name="detail">Details</string>
+    <string name="borrowing_ticket">Borrowing ticket</string>
+    <string name="borrow_read">Borrow read</string>
+    <string name="rules">
+Here store and loan more than 46809 textbooks.\n
+Form of service: Closed warehouse\n
+The process of borrowing textbooks at the borrowing room\n
+1. Look up books in the list of books to be borrowed\n
+2. Enter all information on the request form\n
+3. Clip the request form and student ID card to the Librarian to wait for the book\n
+4. Check books and loan coupons before bringing them home</string>
+    <string name="confirm">Confirm</string>
+    <string name="refuse">Refuse</string>
+    <string name="failed">Failed.</string>
+    <string name="notification">Notification</string>
+    <string name="you_sure">Are you sure?</string>
+
+
+</resources>

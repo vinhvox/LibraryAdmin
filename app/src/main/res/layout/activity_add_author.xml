@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageAuthorCreate"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/writer" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageAuthorCreate"
+            android:text="@string/pseudonym"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtPseudonym"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageAuthorCreate"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPseudonym"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imageAuthorCreate"
+            android:text="@string/name"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtAuthorName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView46"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageAuthorCreate"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageAuthorCreate"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/information"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView47"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/author_code"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtAuthorCodeCreate"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView47"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/textView48"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView48"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/nation"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtNationOfAuthor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtAuthorCodeCreate"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/textView49"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView49"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/date_of_birth"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtBirthDayOfAuthor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtNationOfAuthor"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/textView50"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView50"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/category"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtBirthDayOfAuthor"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView53"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/artwork"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtArtwork"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_below="@+id/textView57"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
